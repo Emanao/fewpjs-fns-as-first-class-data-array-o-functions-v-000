@@ -23,3 +23,7 @@ const unleashDog = function (dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
 routine[5]= unleashDog;
+
+for (const fnc of routine){
+  fnc();
+}
