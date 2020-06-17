@@ -24,6 +24,10 @@ const unleashDog = function (dogName, dogBreed) {
 }
 routine[5]= unleashDog;
 
-for (const fnc of routine){
-  fnc();
+function exerciseDog (dogName, dogBreed){
+  const exerciseDogPractice=[];
+  for (const fnc of routine){
+    exerciseDogPractice.push(fnc(dogName, dogBreed));
+  }
+  return exerciseDogPractice;
 }
