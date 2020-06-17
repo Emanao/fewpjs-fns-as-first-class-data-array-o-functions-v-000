@@ -1,5 +1,5 @@
 let routine = []
-routine[0] = function wakeDog(dogName, dogBreed) {
+wakeDog= function (dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
 routine[1]=function leashDog(dogName, dogBreed) {
