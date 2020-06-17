@@ -2,10 +2,10 @@ let routine = []
 wakeDog = function (dogName, dogBreed) {
   return`Wake ${dogName} the ${dogBreed}`;
 }
-leashDog = function leashDog(dogName, dogBreed) {
+leashDog = function (dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`;
 }
-walkToPark = function walkToPark(dogName, dogBreed) {
+walkToPark = function (dogName, dogBreed) {
   return `Walk to the park with ${dogName} the ${dogBreed}`;
 }
 throwFrisbee = function (dogName, dogBreed) {
@@ -14,6 +14,6 @@ throwFrisbee = function (dogName, dogBreed) {
 walkHome = function (dogName, dogBreed) {
   return `Walk home wit ${dogName} the ${dogBreed}`;
 }
-unleashDog = function unleashDog(dogName, dogBreed) {
+unleashDog = function (dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`;
 }
