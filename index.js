@@ -1,6 +1,6 @@
 let routine = []
 wakeDog= function (dogName, dogBreed) {
-  console.log(`Wake ${dogName} the ${dogBreed}`);
+  return`Wake ${dogName} the ${dogBreed}`;
 }
 routine[1]=function leashDog(dogName, dogBreed) {
   console.log(`Leash ${dogName} the ${dogBreed}`);
